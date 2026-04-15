@@ -29,6 +29,30 @@
 | **Blockscout API** | v2 (Ethereum Mainnet) |
 | **Node.js** | 18.20.8 |
 
+## 🧪 Tokens de Prueba
+
+Usa estas direcciones para probar la aplicación:
+
+### Wallets Populares
+| Tipo | Dirección | Descripción |
+|------|-----------|-------------|
+| **Vitalik Buterin** | `0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045` | Wallet del fundador de Ethereum con alta actividad |
+| **Binance Hot Wallet** | `0x28C6c06298d514Db089934071355E5743bf21d60` | Exchange principal con miles de transacciones |
+| **OpenSea** | `0x5b3256365E7B4269B2c4Aa9cF4622324372C9c7c` | Marketplace de NFTs con colecciones variadas |
+
+### Contratos Inteligentes
+| Tipo | Dirección | Descripción |
+|------|-----------|-------------|
+| **USDT** | `0xdAC17F958D2ee523a2206206994597C13D831ec7` | Stablecoin más usado, ideal para ver tokens |
+| **Uniswap V3** | `0x1F98431c8aD98523631AE4a59f267346ea31F984` | Factory del DEX más popular |
+| **BAYC** | `0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D` | NFT collection premium |
+
+### Wallets con NFTs
+| Tipo | Dirección | Descripción |
+|------|-----------|-------------|
+| **Collector** | `0x9f8c163cBA728e99993ABe7495F06c0A3c8Ac8b9` | Wallet con múltiples NFTs y colecciones |
+| **Artist** | `0x3B3525F60eCf214eCa2aB1C3cFaf5f51C2A8C59B` | Creador activo con obras diversas |
+
 ## 📁 Estructura del Proyecto
 
 ```
