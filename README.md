@@ -186,5 +186,5 @@ MIT
 
 ## 👨‍💻 Autor
 
-Portfolio Web3 Project — 2026
+GeorgeCore-maker — 2026
 
