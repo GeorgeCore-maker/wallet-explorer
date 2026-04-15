@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Dark theme global
+body {
+  background-color: rgb(15 23 42); // slate-900
+  color: rgb(241 245 250); // slate-100
+}
+
+// Material overrides for dark theme
+.mat-mdc-form-field-label {
+  color: rgb(148 163 184) !important; // slate-400
+}
+
+.mat-mdc-text-field-wrapper {
+  background-color: rgb(30 41 59) !important; // slate-800
+}
+
+.mat-mdc-table {
+  background-color: transparent !important;
+}
+
+.mat-mdc-paginator {
+  background-color: rgba(30 41 59 / 0.5) !important; // slate-800/50
+}
+
+// Tab styling
+.mat-mdc-tab-labels {
+  border-bottom: 1px solid rgba(51 65 85 / 0.5) !important; // slate-700
+}
+
+.mat-mdc-tab-body-content {
+  color: rgb(203 213 225) !important; // slate-200
+}
+
+// Link styling
+a {
+  color: rgb(147 197 253); // blue-300
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: rgb(229 231 235); // blue-100
+  }
+}
