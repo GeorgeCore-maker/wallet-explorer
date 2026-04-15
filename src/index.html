@@ -2,12 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>WalletExplorer</title>
-  <base href="/">
+  <title>🔍 Wallet Explorer - Ethereum Blockchain Explorer</title>
+  <base href="/wallet-explorer/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Modern Ethereum wallet explorer built with Angular. Search addresses, view transactions, tokens, and NFTs with dark theme interface.">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- GitHub Pages SPA support -->
+  <script type="text/javascript">
+    // Single Page Apps for GitHub Pages
+    (function(l) {
+      if (l.search[1] === '/' ) {
+        var decoded = l.search.slice(1).split('&').map(function(s) {
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location))
+  </script>
 </head>
 <body class="mat-typography">
   <app-root></app-root>
