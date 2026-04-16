@@ -29,6 +29,10 @@
 | **Blockscout API** | v2 (Ethereum Mainnet) |
 | **Node.js** | 18.20.8 |
 
+## Ruta del proyecto:
+
+https://georgecore-maker.github.io/wallet-explorer/
+
 ## 🧪 Tokens de Prueba
 
 Usa estas direcciones para probar la aplicación:
